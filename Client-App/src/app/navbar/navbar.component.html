@@ -1,0 +1,16 @@
+<nav class="navbar navbar-light bg-dark">
+  <div class="container-fluid">
+    <button class="btn btn-outline-light" routerLink="" routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact:true }">Asosiy</button>
+      <button class="btn btn-outline-light" routerLink="/play" routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact:true }">Testlar</button>
+    <form class="d-flex">
+      <button *ngIf="!isAuthenticated()" routerLink="register" class="btn btn-outline-light m-1"
+        routerLinkActive="active" [routerLinkActiveOptions]="{ exact:true }">Sign Up</button>
+      <button *ngIf="!isAuthenticated()" routerLink="login" class="btn btn-outline-light m-1" routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact:true }">Sign In</button>
+      <button *ngIf="isAuthenticated()" (click)="logout()" class="btn btn-outline-light m-1" routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact:true }">Sign Out</button>
+    </form>
+  </div>
+</nav>

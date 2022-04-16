@@ -1,0 +1,14 @@
+C:\Users\NOVO\MyProject\Quiz\Quiz.Backend\bin\Debug\netcoreapp2.1\Quiz.Backend.deps.json
+C:\Users\NOVO\MyProject\Quiz\Quiz.Backend\bin\Debug\netcoreapp2.1\Quiz.Backend.runtimeconfig.json
+C:\Users\NOVO\MyProject\Quiz\Quiz.Backend\bin\Debug\netcoreapp2.1\Quiz.Backend.runtimeconfig.dev.json
+C:\Users\NOVO\MyProject\Quiz\Quiz.Backend\bin\Debug\netcoreapp2.1\Quiz.Backend.dll
+C:\Users\NOVO\MyProject\Quiz\Quiz.Backend\obj\Debug\netcoreapp2.1\Quiz.Backend.csprojAssemblyReference.cache
+C:\Users\NOVO\MyProject\Quiz\Quiz.Backend\obj\Debug\netcoreapp2.1\Quiz.Backend.csproj.CoreCompileInputs.cache
+C:\Users\NOVO\MyProject\Quiz\Quiz.Backend\obj\Debug\netcoreapp2.1\Quiz.Backend.RazorAssemblyInfo.cache
+C:\Users\NOVO\MyProject\Quiz\Quiz.Backend\obj\Debug\netcoreapp2.1\Quiz.Backend.RazorAssemblyInfo.cs
+C:\Users\NOVO\MyProject\Quiz\Quiz.Backend\obj\Debug\netcoreapp2.1\Quiz.Backend.AssemblyInfoInputs.cache
+C:\Users\NOVO\MyProject\Quiz\Quiz.Backend\obj\Debug\netcoreapp2.1\Quiz.Backend.AssemblyInfo.cs
+C:\Users\NOVO\MyProject\Quiz\Quiz.Backend\obj\Debug\netcoreapp2.1\Quiz.Backend.RazorTargetAssemblyInfo.cache
+C:\Users\NOVO\MyProject\Quiz\Quiz.Backend\bin\Debug\netcoreapp2.1\Quiz.Backend.pdb
+C:\Users\NOVO\MyProject\Quiz\Quiz.Backend\obj\Debug\netcoreapp2.1\Quiz.Backend.dll
+C:\Users\NOVO\MyProject\Quiz\Quiz.Backend\obj\Debug\netcoreapp2.1\Quiz.Backend.pdb

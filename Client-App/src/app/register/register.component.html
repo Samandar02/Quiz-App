@@ -1,0 +1,23 @@
+<div class="container m-3 p-3 border">
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+        <div class="row"> 
+            <div class="col">
+                <label for="email">Email</label>
+                <input formControlName="email" type="text" id="email" class="form-control" placeholder="E-mail">
+                <span class="alert" *ngIf="registerForm.controls.email.invalid && registerForm.controls.email.touched">
+                    <div class="alert alert-danger">to'ldirirsh majburity</div>
+                </span>
+            </div>
+            <div class="col">
+                <label for="password">Password</label>
+                <input formControlName="password" type="text" id="password" class="form-control" placeholder="Password">
+                <span class="alert" *ngIf="registerForm.controls.password.invalid && registerForm.controls.password.touched">
+                    <div class="alert alert-danger"> Passwordni to'ldirirsh majburity</div>
+                </span>
+            </div>
+            <div class="col">
+                <button class="btn btn-primary">Ro'yhatdan o'tish</button>
+            </div>
+        </div>
+    </form>
+</div>

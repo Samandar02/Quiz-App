@@ -1,0 +1,15 @@
+<div class="mt-2">
+    <div class="card">
+        <div class="card-header">
+            savollar
+        </div>
+        <div class="card-body">
+            <ul class="list-group">
+                <a class="list-group-item text-center" [routerLink]="['/playQuiz',quiz.id]" style="cursor: pointer;"
+                    *ngFor="let quiz of quizzes">
+                    {{quiz.title}}
+                </a>
+            </ul>
+        </div>
+    </div>
+</div>

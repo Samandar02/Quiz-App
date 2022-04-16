@@ -1,0 +1,44 @@
+<form class="container border p-lg-3">
+    <div class="row">
+        <div class="col m-3">
+            <span *ngIf="question.id"><h3>Savolni Yangilash</h3></span>
+            <span *ngIf="!question.id"><h3>Yangi savol</h3></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="question" class="form-label">Question</label>
+            <input [(ngModel)]="question.text" name="question" class="form-control" id="question" placeholder="Savol"
+                type="text">
+        </div>
+        <div class="col">
+            <label for="question" class="form-label">To'gri javob</label>
+            <input [(ngModel)]="question.correctAnswer" name="correctAnswer" class="form-control"
+                placeholder="To'gri javob" type="text">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label class="form-label">Noto'gri javob</label>
+            <input [(ngModel)]="question.wrongAnswer1" name="wrongAnswer1" class="form-control"
+                placeholder="Noto'gri javob 1" type="text">
+        </div>
+        <div class="col">
+            <label class="form-label">Noto'gri javob</label>
+            <input [(ngModel)]="question.wrongAnswer2" name="wrongAnswer2" class="form-control"
+                placeholder="Noto'gri javob 2" type="text">
+        </div>
+        <div class="col">
+            <label class="form-label">Noto'gri javob</label>
+            <input [(ngModel)]="question.wrongAnswer3" name="wrongAnswer3" class="form-control"
+                placeholder="Noto'gri javob 3" type="text">
+        </div>
+        <div class="row">
+            <div class="col m-3 row">
+                <button class="btn border col m-1" (click)="post()">Jo'natish</button>
+                <button class="btn border col m-1" (click)="yangilash()">Yangilash</button>
+            </div>
+        </div>
+    </div>
+</form>
+<app-questions></app-questions>
